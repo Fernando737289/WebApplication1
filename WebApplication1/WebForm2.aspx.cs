@@ -19,7 +19,7 @@ namespace WebApplication1
                 double eva3 = Convert.ToDouble(TextBox5.Text);
                 double epe3 = Convert.ToDouble(TextBox6.Text);
 
-                double promedio = (eva1 * 0.07 + epe1 * 0.07 + eva2 * 0.07 + epe2 * 0.14 + eva3 * 0.14 + epe3 * 0.21) / 0.70;
+                double promedio = (eva1 * 0.07 + epe1 * 0.07 + eva2 * 0.07 + epe2 * 0.20 + eva3 * 0.14 + epe3 * 0.21) / 0.70;
                 
                 if (promedio >= 50)
                 {

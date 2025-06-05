@@ -40,7 +40,7 @@
         <asp:Label ID="lblEximido" runat="server" ></asp:Label><br /><br />
         
         
-        <asp:Button ID="btnCalcular" CssClass="asp-button-accion" runat="server" Text="Calcular Promedio" OnClick="btnCalcular_Click" />
+        <asp:Button ID="btnCalcular" CssClass="asp-button-accion" runat="server" Text="Calcular hols" OnClick="btnCalcular_Click" />
         
         <asp:Button ID="btnlimpiar"  CssClass="boton-tercero" runat="server" Text="limpiar" OnClick="btnLimpiar_Click" /><br /><br />
         
