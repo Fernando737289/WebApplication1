@@ -1,0 +1,39 @@
+﻿body, form {
+    font-family: Calibri, sans-serif;
+}
+
+.logo-ipchile {
+    width: 300px;
+    height: 200px;
+}
+
+
+input.asp-button-accion[type="submit"] {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+input.boton-tercero[type="submit"] {
+    background-color: #010101;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+input.boton-retorno[type="submit"] {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
