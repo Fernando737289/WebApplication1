@@ -12,7 +12,7 @@
 <form id="form1" runat="server">
    
     <h1>Fernando Maturana - Francisco Baez</h1> 
-    <img src="img/LOGO-FONDO-BLANCO-JPG.png" alt="IPChile Logo" class="logo-ipchile" /><br /><br />
+ <img src="img/LOGO-FONDO-BLANCO-JPG.png" alt="IPChile Logo" class="logo-ipchile" /><br /><br />
 
         
     <asp:Label ID="Label1" runat="server" Text="Ir a Pagina Web 1:"></asp:Label><br /><br />
@@ -29,6 +29,10 @@
     <asp:Label ID="Label3" runat="server" Text="Ir a Pagina Web 3:"></asp:Label><br /><br />
     <asp:Button ID="btnIrPagina3" CssClass="boton-retorno" runat="server" Text="Formulario de Contacto" OnClick="btnIrPagina3_Click" /><br /><br />
         
+
+    <asp:Label ID="Label4" runat="server" Text="Ir a Pagina Web 4:"></asp:Label><br /><br />
+    <asp:Button ID="Button1" CssClass="boton-tercero" runat="server" Text="Calculadora Clasica" OnClick="btnIrPagina4_Click" /><br /><br />
+
 </form>
 </body>
 </html>
