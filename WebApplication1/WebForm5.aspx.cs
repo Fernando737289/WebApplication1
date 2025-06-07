@@ -36,7 +36,7 @@ namespace WebApplication1
                 double num2 = Convert.ToDouble(TextBox2.Text);
                 string operacion = ddlOperacion.SelectedValue;
 
-                double resultado = 0;
+                double resultado = 1;
 
                 switch (operacion)
                 {
