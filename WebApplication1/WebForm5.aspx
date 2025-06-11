@@ -32,8 +32,8 @@
 
 
 
-                <asp:Label ID="lblResultado" runat="server" ></asp:Label><br /><br /><br />
-
+                <asp:Label ID="lblResultado" runat="server" Text="Resultado: "></asp:Label>
+                <asp:Label ID="lblResultado1" runat="server" ></asp:Label><br /><br /><br />
                 
                 <asp:Button ID="btnCalcular" CssClass="asp-button-accion" runat="server" Text="Calcular" OnClick="btnCalcular_Click" />
 

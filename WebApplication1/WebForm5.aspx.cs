@@ -24,7 +24,7 @@ namespace WebApplication1
 
             TextBox1.Text = "";
             TextBox2.Text = "";
-            lblResultado.Text = "";
+            lblResultado1.Text = "";
 
         }
 
@@ -52,23 +52,23 @@ namespace WebApplication1
                     case "dividir":
                         if (num2 == 0)
                         {
-                            lblResultado.Text = "Error: No se puede dividir por cero.";
+                            lblResultado1.Text = "Error: No se puede dividir por cero.";
                             return;
                         }
                         resultado = num1 / num2;
                         break;
                 }
 
-                lblResultado.Text = "El resultado es: " + resultado.ToString();
+                lblResultado1.Text = resultado.ToString();
 
             }
             catch (FormatException)
             {
-                lblResultado.Text = "Por favor ingrese números válidos.";
+                lblResultado1.Text = "Por favor ingrese números válidos.";
             }
             catch (Exception ex)
             {
-                lblResultado.Text = "Error: " + ex.Message;
+                lblResultado1.Text = "Error: " + ex.Message;
             }
         }
 
