@@ -32,6 +32,9 @@
 
     <asp:Label ID="Label4" runat="server" Text="Ir a Pagina Web 4:"></asp:Label><br /><br />
     <asp:Button ID="Button1" CssClass="boton-tercero" runat="server" Text="Calculadora Clasica" OnClick="btnIrPagina4_Click" /><br /><br />
+    
+    <asp:Label ID="Label5" runat="server" Text="Ir a Pagina Web 5:"></asp:Label><br /><br />
+    <asp:Button ID="Button2" CssClass="boton-tercero" runat="server" Text="Ambito de Variables" OnClick="btnIrPagina5_Click" /><br /><br />
 
 </form>
 </body>

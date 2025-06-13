@@ -30,5 +30,10 @@ namespace WebApplication1
         {
             Response.Redirect("WebForm5.aspx");
         }
+        
+        protected void btnIrPagina5_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("WebForm6.aspx");
+        }
     }
 }
