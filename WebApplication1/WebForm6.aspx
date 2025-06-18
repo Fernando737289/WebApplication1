@@ -11,35 +11,27 @@
 <body>
     <form id="form1" runat="server">
         <div>
-               <h1>Fernando Maturana - Francisco Baez</h1> 
-               <img src="img/LOGO-FONDO-BLANCO-JPG.png" alt="IPChile Logo" class="logo-ipchile" /><br /><br />
+                <h1>Fernando Maturana - Francisco Baez</h1> 
+                <img src="img/LOGO-FONDO-BLANCO-JPG.png" alt="IPChile Logo" class="logo-ipchile" /><br />
+            
+                <h2>Ejemplo de Ambito de Variables</h2><br /><br />
+            
+                <asp:Button ID="btnVariables"  CssClass="asp-button-accion" runat="server" Text="Mostrar Variables" OnClick="btnMostrar_Variables" /><br /><br /><br />
 
-                <asp:Label ID="Label1" runat="server" Text="Numero 1"></asp:Label><br />
-                <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox><br />
+                <asp:Label ID="lbLocal" runat="server" Text="Variable Local: "></asp:Label>
+                <asp:Label ID="lbResultado" runat="server" ></asp:Label><br /><br />
 
-                <asp:Label ID="Label2" runat="server" Text="Numero 2"></asp:Label><br />
-                <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox><br /><br />
-
-
-                <asp:Label ID="lblOperacion" runat="server" Text="Operación: "></asp:Label>
-                <asp:DropDownList ID="ddlOperacion" runat="server">
-                <asp:ListItem Text="Suma" Value="sumar" />
-                <asp:ListItem Text="Resta" Value="restar" />
-                <asp:ListItem Text="Multiplicación" Value="multiplicar" />
-                <asp:ListItem Text="División" Value="dividir" />
-                </asp:DropDownList>
-                <br /><br />
-
-
-
-                <asp:Label ID="lblResultado" runat="server" Text="Resultado: "></asp:Label>
-                <asp:Label ID="lblResultado1" runat="server" ></asp:Label><br /><br /><br />
-                
-                <asp:Button ID="btnCalcular" CssClass="asp-button-accion" runat="server" Text="Calcular" OnClick="btnCalcular_Click" />
-
-                <asp:Button ID="btnlimpiar"  CssClass="boton-tercero" runat="server" Text="limpiar" OnClick="btnLimpiar_Click" /><br /><br />
-          
+                <asp:Label ID="lbInstancia" runat="server" Text="Variable de Instancia: "></asp:Label>
+                <asp:Label ID="lbResultado1" runat="server" ></asp:Label><br /><br />    
+            
+                <asp:Label ID="lbEstatica" runat="server" Text="Variable Estatica: "></asp:Label>
+                <asp:Label ID="lbResultado2" runat="server" ></asp:Label><br /><br /><br /> 
+            
+            <asp:Button ID="btnlimpiar"  CssClass="boton-tercero" runat="server" Text="limpiar" OnClick="btnLimpiar" /><br /><br />
+            
                 <asp:Button ID="btnVolver" CssClass="boton-retorno" runat="server" Text="Volver a Index" OnClick="btnVolver_Click" />
+            
+                
         </div>
     </form>
 </body>
