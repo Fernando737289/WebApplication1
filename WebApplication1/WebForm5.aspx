@@ -6,7 +6,7 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <link href="StyleSheet1.css" rel="stylesheet" type="text/css" />
-    <title></title>
+    <title>Calculadora Clasica.</title>
 </head>
 <body>
     <form id="form1" runat="server">
