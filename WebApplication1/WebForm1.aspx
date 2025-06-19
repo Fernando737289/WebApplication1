@@ -36,6 +36,9 @@
     <asp:Label ID="Label5" runat="server" Text="Ir a Pagina Web 5:"></asp:Label><br /><br />
     <asp:Button ID="Button2" CssClass="boton-tercero" runat="server" Text="Ambito de Variables" OnClick="btnIrPagina5_Click" /><br /><br />
 
+    <asp:Label ID="Label6" runat="server" Text="Ir a Pagina Web 6:"></asp:Label><br /><br />
+    <asp:Button ID="Button3" CssClass="boton-tercero" runat="server" Text="Ejemplo de array y vectores" OnClick="btnIrPagina6_Click" /><br /><br />
+
 </form>
 </body>
 </html>
