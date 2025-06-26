@@ -24,18 +24,28 @@ namespace WebApplication1
         protected void btArray(object sender, EventArgs e)
         {
             
-            string entrada = TextBox1.Text;
+            string entrada = TextBox1.Text.Trim();
 
             try
             {
-                
+                if (!entrada.Contains('-'))
+                {
+                    Label6.Text = "Error: debe ingresar al menos dos numeros separados por guiones. ";
+                    return;
+                }
+
                 string[] valores = entrada.Split('-');
+
+                if (valores.Length < 2)
+                {
+                    Label6.Text = "Error: debe ingresar al menos dos numeros separados por guiones. ";
+                    return;
+                }
+
                 int[] numeros = Array.ConvertAll(valores, int.Parse);
 
                
                 int suma = numeros.Sum();
-
-                
                 double promedio = numeros.Average();
 
                 
@@ -58,9 +68,6 @@ namespace WebApplication1
 
             TextBox1.Text = "";
         }
-
-
-
-
+        
     }
 }
