@@ -31,14 +31,18 @@
         
 
     <asp:Label ID="Label4" runat="server" Text="Ir a Pagina Web 4:"></asp:Label><br /><br />
-    <asp:Button ID="Button1" CssClass="boton-tercero" runat="server" Text="Calculadora Clasica" OnClick="btnIrPagina4_Click" /><br /><br />
+    <asp:Button ID="Button1" CssClass="asp-button-accion" runat="server" Text="Calculadora Clasica" OnClick="btnIrPagina4_Click" /><br /><br />
     
     <asp:Label ID="Label5" runat="server" Text="Ir a Pagina Web 5:"></asp:Label><br /><br />
     <asp:Button ID="Button2" CssClass="boton-tercero" runat="server" Text="Ambito de Variables" OnClick="btnIrPagina5_Click" /><br /><br />
 
     <asp:Label ID="Label6" runat="server" Text="Ir a Pagina Web 6:"></asp:Label><br /><br />
-    <asp:Button ID="Button3" CssClass="boton-tercero" runat="server" Text="Ejemplo de array y vectores" OnClick="btnIrPagina6_Click" /><br /><br />
+    <asp:Button ID="Button3" CssClass="boton-retorno" runat="server" Text="Ejemplo de array y vectores" OnClick="btnIrPagina6_Click" /><br /><br />
 
+     <asp:Label ID="Label7" runat="server" Text="Ir a Pagina Web 7:"></asp:Label><br /><br />
+    <asp:Button ID="Button4" CssClass="asp-button-accion" runat="server" Text="Formulario de ingreso." OnClick="btnIrPagina7_Click" /><br /><br />
+
+    
 </form>
 </body>
 </html>
